@@ -1,0 +1,19 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Czogala4FLos.MainPage"
+             Title="Class Picker"
+             StyleClass="main-page">
+    <ContentPage.Resources>
+        <StyleSheet Source="Resources/Styles/StyleCSS.css" />
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Label x:Name="instrukcja" Text="Wylosuj ucznia do odpowiedzi! Jeśli uczeń został już wylosowany, to ma immunitet na 3 następne losowania!"/>
+        <Button Text="Dodaj klasę" Clicked="AddClass_Clicked" StyleClass="button" />
+        <Button Text="Edytuj klasę" Clicked="EditClass_Clicked" StyleClass="button" />
+        <Button Text="Usuń klasę" Clicked="DeleteClass_Clicked" StyleClass="button" />
+        <Button Text="Wylosuj ucznia" Clicked="PickClass_Clicked" StyleClass="button" />
+        <Label x:Name="pickedStudentLabel" />
+    </StackLayout>
+
+</ContentPage>

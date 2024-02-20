@@ -1,0 +1,21 @@
+/* selektor klasy bazowej ^ oraz modyfikacja paska tytu³owego aplikacji */
+^contentpage {
+    background-color: lightblue;
+    -maui-shell-background: royalblue;
+}
+/* selektor elementow podrzednych > */
+stacklayout > label {
+    color: midnightblue;
+    text-align: center;
+}
+/* klasa */
+.button {
+    background-color: lightskyblue;
+    color: dimgray;
+}
+/* ID */
+#pickedStudentLabel {
+    color: red;
+    text-align: center;
+}
+
